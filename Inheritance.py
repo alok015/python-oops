@@ -25,6 +25,9 @@ class Car(Vehicle):
         print('Numgears: ',self.numGears)
         print('Isconvertible:',self.isConvertible)
 
+    def substract(self):
+        pass
+
 # c = Car("red",15,3,False)
 # c.print()
 v = Vehicle('red',18)
